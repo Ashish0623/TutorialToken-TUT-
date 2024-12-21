@@ -34,15 +34,4 @@ Our vision is to create a decentralized ecosystem where content creators are rew
 ## Deployment
 To deploy this contract, provide an initial token supply as a constructor argument. Once deployed, the deploying address becomes the owner, holding the total supply of tokens.
 
-## Usage
-### Token Transfers
-- Use the `transfer` function to send tokens to another address.
-- Use the `approve` and `transferFrom` functions to allow spending on behalf of another user.
-
-### Rewarding Creators
-- The owner can reward content creators by calling the `rewardCreator` function, specifying the creator's address, a tutorial URL, and the reward amount.
-
----
-
-
 
